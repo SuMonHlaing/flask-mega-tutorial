@@ -56,9 +56,9 @@
                         
 <article id="home" class="panel special" style="display: flex;">
                             
-   <div class="image" style="background-image: url(&quot;images/1.jpg&quot;); background-position: center center;">
+	<div class="image" style="background-image: url(&quot;{{ url_for('static',filename='images/1.jpg')}}&quot;); background-position: center center;">
     
-    <img src="images/1.jpg" alt="" data-position="center center" 
+	   <img src="{{ url-for('static',filenaeme='images/1.jpg')}}" alt="" data-position="center center" 
                                 
    style="display: none;">
                             
